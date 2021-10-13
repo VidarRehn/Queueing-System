@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h2>Digital Queuing System</h2>
+    </div>
+    <div id="input-container">
+        <div class="child-container">
+            <div>
+                <input class="name-input" id="first-name" type="text" placeholder="First Name">
+            </div>
+            <div>
+                <input class="name-input" id="last-name" type="text" placeholder="Last Name">
+            </div>
+            <div>
+                <input class="name-input" id="telephone" type="text" placeholder="Telephone Number">
+            </div><br>
+            <div>
+                <button id="add-button">Add to Queue</button>
+            </div>
+            <div>
+                <button id="fast-track-button">Fast Track</button>
+            </div>
+        </div>
+    </div>
+    <div id="list-container">
+        <div class="child-container">
+            <h3>Current Queue</h3>
+            <ol id="queue"></ol>
+        </div>
+        <div id="child-container2">
+            <h3>Checked in</h3>
+            <ol id="checked-in"></ol>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
