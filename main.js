@@ -9,6 +9,7 @@ let firstName = document.querySelector("#first-name");
 let lastName = document.querySelector("#last-name");
 let telephoneNumber = document.querySelector("#telephone");
 
+
 [addButton, fastTrackButtonMain].forEach((button) =>{
     button.addEventListener("click", (x)=> {
         let newInput = document.createElement("li");
@@ -28,6 +29,7 @@ let telephoneNumber = document.querySelector("#telephone");
         fastTrackButton.innerText = "Fast Track";
         fastTrackButton.classList.add("fast-track-button-in-list");
         let checkInButton = document.createElement("button");
+        checkInButton.classList.add("check-in-button");
         checkInButton.innerText = "Check-in";
 
         newInput.append(nameSpan);
