@@ -103,7 +103,7 @@ emptyMessage.innerText = "There’s currently no people standing in line";
             }
             
         } else {
-            alert("please enter a name");
+            alert("Please Enter a Name");
         }
     })
 })
